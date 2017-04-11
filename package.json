@@ -1,0 +1,28 @@
+{
+  "name": "briandweber.com",
+  "version": "1.0.0",
+  "description": "Portfolio website",
+  "main": "index.html",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.0.0",
+    "grunt-contrib-uglify": "^2.3.0",
+    "grunt-responsive-images": "^1.10.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briandweber/briandweber.com.git"
+  },
+  "author": "Brian D. Weber",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/briandweber/briandweber.com/issues"
+  },
+  "homepage": "https://github.com/briandweber/briandweber.com#readme"
+}
