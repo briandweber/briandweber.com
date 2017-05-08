@@ -1,21 +1,124 @@
 body {
-  margin: 0px;
-  color: white;
+  background-color: #2F2F2F;
 }
 
-.hero {
-  display: flex;
-  z-index: 0;
-  opacity: 0.9;
+.welcome {
+   height: 50vh;
+ }
+
+header {
+  height: 20vh;
 }
 
-img {
-  width: 100%;
-  height: 100%;
+.exit {
+  height: 50px;
+  width: 50px;
+  background-color: #2F2F2F;
   position: fixed;
+  top: 30px;
+  right: 25px;
+  display: none;
+  z-index: 2060;
+  color: #CFCFCF;
+  font-size: 3em;
+  font-family: 'Fira Mono', monospace;
 }
 
-.header {
+#slideMenu {
+  display: none;
+  background-color: #000;
+  position: absolute;
+  z-index: 2000;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  color: #CFCFCF;
+  text-align: center;
+}
+
+.menuItem {
+  height: 20vh;
+  width: 60%;
+  margin: auto;
+}
+
+.menuItem:hover {
+  opacity: 0.8;
+  background-color: #605b5b;
+}
+
+.menuItem a {
+  text-decoration: none;
+  color: #CFCFCF;
+}
+
+p {
+    font-size: 1.4em;
+}
+
+.menuItem p {
   position: relative;
-  z-index: 1;
+  top: 40%;
+  font-size: 2em;
+}
+
+main {
+  color: #CFCFCF;
+  font-family: 'PT Sans', sans-serif;
+  font-size: .75em;
+  text-align: center;
+}
+
+.burger {
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  top: 30px;
+  right: 25px;
+  z-index: 1050;
+}
+
+.burgerLine {
+  border-bottom: 2px solid #CFCFCF;
+  margin: 0;
+  padding: 0;
+  height: 20%;
+}
+
+  nav.primary-nav {
+  background-color: #000;
+  top: 0;
+  right: 0;
+  position: fixed;
+  min-width: 200px;
+  z-index: 1002;
+  display: none;
+}
+
+nav.primary-nav a{
+  text-decoration: none;
+  padding: 5px 10px;
+  display: block;
+  color: #fff;
+}
+
+.menu-on {
+  background-color: #000;
+  color: #fff;
+  top: 0;
+  right: 0;
+  position: fixed;
+  z-index: 1001;
+  padding: 10px;
+}
+
+.menu-off {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  display: none;
 }
