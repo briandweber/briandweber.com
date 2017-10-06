@@ -17,7 +17,9 @@ $(document).ready(function(){
 
   //display menu choices via slideDown
   $("#menu").click(function(){
-    $("#slideMenu").slideDown(500)
+    $("#slideMenu").slideDown(500);
+    $("html").css("perspective", "none");
+    $("body").css("transform", "none");
   })
   $("#menu").click(function(){
     $(".quote").css({
@@ -42,6 +44,13 @@ $(document).ready(function(){
 //disappear menu choices via slideUp
   $(".exit").click(function(){
     $("#slideMenu").slideUp(500)
+  })
+  $(".menuItem").click(function(){
+    setTimeout(function(){
+    }, 2000)
+    $(".menuItem").click(function(){
+      $("#slideMenu").slideUp(500);
+    })
   })
   $(".exit").click(function(){
     $(".quote").css({

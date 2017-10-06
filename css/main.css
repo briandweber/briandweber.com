@@ -1,6 +1,11 @@
 body {
   background-color: #2F2F2F;
-}
+/*  transform: rotateY(45deg);
+*/}
+
+/*html {
+  perspective: 500px;
+}*/
 
 .welcome {
    height: 50vh;
@@ -26,7 +31,7 @@ header {
 
 #slideMenu {
   display: none;
-  background-color: #000;
+  background-image: url("../images_src/brushedMetal.png");
   position: absolute;
   z-index: 2000;
   top: 0px;
@@ -77,6 +82,7 @@ main {
   top: 30px;
   right: 25px;
   z-index: 1050;
+  cursor: pointer;
 }
 
 .burgerLine {

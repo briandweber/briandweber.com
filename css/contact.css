@@ -9,6 +9,7 @@ body {
   top: 30px;
   right: 25px;
   z-index: 1050;
+  cursor: pointer;
 }
 
 header {
@@ -73,6 +74,7 @@ header {
   margin: 0;
   padding: 0;
   height: 20%;
+  cursor: pointer;
 }
 
 .buttonContainer {
